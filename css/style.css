@@ -1,11 +1,11 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Hachi+Maru+Pop&family=Nunito&family=Nunito+Sans:wght@200&family=Zen+Maru+Gothic:wght@300&display=swap');
-@media(min-width:401px){
+@media(min-width:701px){
     .sp{
         display: none !important;
     }
 }
-@media(max-width:400px){
+@media(max-width:700px){
     .pc{
         display: none !important;
     }
