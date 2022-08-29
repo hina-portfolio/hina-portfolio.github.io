@@ -225,6 +225,12 @@
     display: block;
     z-index: -1;
 }
+@media screen and (max-width: 350px){ 
+    .os-wrap::before{
+        width: 600%;
+        height: 375px;
+    }
+}
 .os-wrap__text{
     position: absolute;
     right: -5%;
@@ -352,6 +358,12 @@
     display: block;
     z-index: -1;
 }
+@media screen and (max-width: 350px){ 
+    .st-wrap::before{
+        width: 600px;
+        height: 375px;
+    }
+}
 .st-wrap__text{
     position: absolute;
     right: 0;
@@ -407,6 +419,12 @@
     background: #F2F1F0;
     display: block;
     z-index: -1;
+}
+@media screen and (max-width: 350px){ 
+    .club-wrap::before{
+        width: 600px;
+        height: 375px;
+    }
 }
 
 .club-wrap__img{
