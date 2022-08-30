@@ -280,7 +280,21 @@ section{
     color:#8fb1cc;
     padding-left: 8px;
     padding: .1em;
-	border-bottom: 2px double #8fb1cc;
+　　border-bottom: 2px double #8fb1cc;
+}
+.nav3{
+    position: sticky;
+    text-decoration: none;
+    top: 90px;
+    margin-left: 20px;
+}
+.display-none{
+    display: none;
+}
+.active2 {
+    opacity: 1;
+    top: 100;
+    display: block;
 }
 /*-------------
     フッター
