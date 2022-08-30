@@ -437,6 +437,12 @@
     width: 250px;
     height: 250px;
 }
+@media screen and (max-width: 400px){
+    .club-wrap__img{
+        width: 1000px;
+        height: 500px;
+    }
+}
 
 .club-wrap__text{
     position: absolute;
