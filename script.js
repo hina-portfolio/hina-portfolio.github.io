@@ -28,3 +28,6 @@ $(window).on('scroll load', function(){        /* ページロード時、また
     }
   });
 });
+$("img.nav3").on("click", function () {
+    $("div.nav").toggleClass("active2");
+  });
