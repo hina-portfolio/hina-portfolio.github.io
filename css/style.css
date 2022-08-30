@@ -276,28 +276,6 @@
     padding: .1em;
 	border-bottom: 2px double #8fb1cc;
 }
-
-
-
-@media only screen and (min-width: 768px) {
-	section .container {
-		flex-flow: row;
-	}
-	main {
-		flex: 1 1 auto;
-	}
-	.sidebar {
-		flex: 0 0 340px;
-	}
-
-	/* nav */
-	.hamburger {
-		display: none;
-	}
-	.navbar {
-		display: flex !important;
-	}
-}
 /*-------------
     フッター
   -------------*/
