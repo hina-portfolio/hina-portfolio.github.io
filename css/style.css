@@ -317,7 +317,7 @@
     max-width: 800px;
     min-height: 400px;
     margin: 0 auto;
-    margin-bottom: 5px;
+    margin-bottom:5px;
 }
 .st-wrap::before{
     content: '';
@@ -339,10 +339,9 @@
     max-width: 380px;
     height: 43%;
     background: #fff;
-    border: 1.3px solid #000000;
+    border: 1.3px solid #D9E8F3;
     text-align: left;
     background-color: #ffffff; 
-    background-image: url(../photo/q.png);
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: right -111px top 20px;
@@ -356,7 +355,7 @@
     max-width: 350px;
     height: 50%;
     background: #fff;
-    border: 1.3px solid #000000;
+    border: 1.3px solid #D9E8F3;
     text-align: left;
     background-color: #ffffff;
     background-image: url(../photo/brain3.png);
@@ -373,7 +372,6 @@
     max-width: 800px;
     min-height: 400px;
     margin: 0 auto;
-    margin-bottom: 5px;
 }
 
 
@@ -401,10 +399,26 @@
     bottom:0;
     max-width: 400px;
     background: #fff;
-    border: 1.3px solid #000000;
+    border: 1.3px solid #D9E8F3;
     text-align: center;
     background-color: #ffffff;
     background-image: url(../photo/back04.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right -111px top 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.club-wrap2__text{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    height: 240px;
+    max-width: 363px;
+    background: #fff;
+    border: 1.3px solid #D9E8F3;
+    text-align: center;
+    background-color: #ffffff;
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: right -111px top 20px; 
