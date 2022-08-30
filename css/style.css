@@ -193,7 +193,7 @@
   推しの説明
     -----------*/
     
-.box {
+.box1 {
     padding: 0.2em 0.5em;
     margin: 15px;
     color: #565656;
@@ -202,7 +202,7 @@
     border: dashed 2px #433327;
     border-radius: 8px;
 }
-.box p {
+.box1 p {
     margin: 0; 
     padding: 0;
 }
@@ -520,3 +520,16 @@
 .slide-paused:hover .slideshow {
     animation-play-state: paused;
 }
+
+/*-----------------
+     ふわっ
+  -----------------*/
+.box {
+    opacity: 0;         /* 初期値は透明にしておく */
+    transition: .5s;    
+  }
+  
+  .active {
+    opacity: 1;         /* 透明度を元に戻す */
+    top: 0;             /* ずらしていた位置を戻すことで上に上がっているようにみえる */
+  }
