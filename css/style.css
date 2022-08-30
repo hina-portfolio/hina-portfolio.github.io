@@ -107,6 +107,10 @@ section{
     background-color: #ffffff;
     background-image: url(../photo/back04.png);
 }
+.p1{
+    text-align: center;
+    margin-bottom: 15px;
+}
 
 /*-------------
    レース画像
